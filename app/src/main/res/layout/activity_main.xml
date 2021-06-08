@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/idpartado"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:hint="id apartado"/>
+
+    <EditText
+        android:id="@+id/nombrecliente"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Cliente"/>
+
+    <EditText
+        android:id="@+id/nombreproducto"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del producto"/>
+
+    <EditText
+        android:id="@+id/precioproducto"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:hint="Precio del producto"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:text="Ingresar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar" />
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="wrap_content"
+        android:text="mostrar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:id="@+id/textViewc"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:paddingBottom="0.5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/listaproduct">
+    </ListView>
+
+</LinearLayout>
